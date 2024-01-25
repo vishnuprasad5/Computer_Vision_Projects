@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk with Signs</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nimbus+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>Talk with Signs</h1>
+        </div>
+        <div class="main-container">
+            <div class="video-container">
+                <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+            </div>
+            <div id="word-prediction-container">
+                <p id="current-word"></p>
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="start-btn" onclick="startPredictions()">Start</button>
+            <button id="pause-btn" onclick="pausePredictions()" disabled>Pause</button>
+            <button id="end-btn" onclick="endPredictions()" disabled>End</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+

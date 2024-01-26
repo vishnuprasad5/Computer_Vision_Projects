@@ -4,6 +4,8 @@
 
 The "Talk with Signs" project is a real-time model that enables the creation and vocalization of words and sentences using hand signals. This innovative project is based on American Sign Language (ASL), where each sign represents a corresponding letter in the English alphabet. Additionally, two unique signs, EOW (End of Word) and EOS (End of Sentence), have been introduced to enhance the communication capabilities.
 
+https://www.linkedin.com/posts/vishnu-prasad-447048261_talkwithsigns-computervision-innovation-activity-7155558352859623424-kWOd?utm_source=share&utm_medium=member_desktop
+
 ## Features
 
 - **Real-time Word and Sentence Creation:** The model dynamically generates words and sentences based on hand signals captured in real-time.

@@ -72,7 +72,7 @@ def generate_frames():
                 last_word = words[-1]
 
                 if last_word == '.':
-                    print("Dot detected. You can handle it differently.")
+                    print("Dot detected. ")
                 else:
                     play_text_speech(last_word)
 
